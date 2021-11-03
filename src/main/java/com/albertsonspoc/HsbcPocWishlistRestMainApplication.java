@@ -8,10 +8,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class HsbcPocWishlistRestMainApplication {
 
-	public static Logger log = LoggerFactory.getLogger(HsbcPocWishlistRestMainApplication.class);
+	//public static Logger log = LoggerFactory.getLogger(HsbcPocWishlistRestMainApplication.class);
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(HsbcPocWishlistRestMainApplication.class, args);
+
+
 	}
+
+
 
 }
